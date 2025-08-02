@@ -11,7 +11,7 @@ export default {
       });
     }
 
-    return new Response(JSON.stringify({ msg: "Hello from Worker!" }), {
+    return new Response(JSON.stringify({ msg: "This is a new message for testing!" }), {
       headers: {
         "Content-Type": "application/json",
         "Access-Control-Allow-Origin": "https://magic-of-mushrooms-frontend.moshimoshi8246.workers.dev/",
@@ -19,4 +19,5 @@ export default {
     });
   },
 };
+
 
